@@ -364,6 +364,7 @@ html {
   max-width: 700px;
   margin: 0 auto;
   line-height: 1.8;
+  text-align: justify;
 }
 
 /* Cards Grid */
@@ -498,6 +499,7 @@ html {
 .card-description {
   color: var(--color-text-muted);
   line-height: 1.6;
+  text-align: justify;
 }
 
 .card-expanded-content {
@@ -527,6 +529,7 @@ html {
   color: var(--color-text-muted);
   margin-bottom: var(--spacing-md);
   line-height: 1.8;
+  text-align: justify;
 }
 
 /* Section Navigation */
@@ -613,6 +616,7 @@ html {
 .footer-text {
   color: var(--color-text-muted);
   line-height: 1.8;
+  text-align: justify;
 }
 
 .footer-bottom {

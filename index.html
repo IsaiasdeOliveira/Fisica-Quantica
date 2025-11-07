@@ -82,9 +82,18 @@
       <div class="container">
         <div class="section-header">
           <h2 class="section-title">Introdução</h2>
+          <h3 class="section-subtitle">Computação Clássica vs Computação Quântica</h3>
           <p class="section-description">
-            A física quântica está revolucionando a medicina moderna através de tecnologias inovadoras
-            que permitem diagnósticos mais precisos e tratamentos personalizados.
+           Os computadores clássicos (ou tradicionais) operam de forma sequencial, armazenando e
+           processando informações por meio de bits binários. Cada bit clássico possui um estado 
+           bem definido, representando apenas um valor por vez: 0 ou 1. Os computadores quânticos, 
+           por outro lado, também são máquinas de resolução de problemas, mas utilizam qubits em 
+           vez de bits. O qubit é a unidade fundamental da computação quântica, e a diferença 
+           crucial é que ele aproveita fenômenos quânticos como a superposição para existir em 
+           múltiplos estados (uma combinação de 0 e 1) simultaneamente. Essa capacidade de 
+           processar dados em um espaço de cálculo mais complexo permite que os computadores
+           quânticos acessem cálculos matemáticos mais avançados, oferecendo um tipo de computação
+           fundamentalmente diferente e exponencialmente mais poderoso para certas tarefas.
           </p>
         </div>
 
@@ -116,85 +125,86 @@
         </div>
 
         <div class="cards-grid cards-grid-3">
-          <div class="card" data-card="Qubits">
-            <div class="card-icon-wrapper" data-tooltip="Clique para expandir ou recolher">
-              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
-                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
-              </svg>
-            </div>
-            <h3 class="card-title">Qubits</h3>
-            <p class="card-description">
-              
-            </p>
-            <div class="card-expanded-content">
-              <p class="expanded-text">
-                A distribuição quântica de chaves (QKD) utiliza o princípio da incerteza de Heisenberg para 
-                criar sistemas de criptografia teoricamente invioláveis. Qualquer tentativa de interceptação 
-                altera o estado quântico das partículas, alertando imediatamente os usuários legítimos.
-              </p>
-              <p class="expanded-text">
-                Redes quânticas já estão sendo implementadas para proteger comunicações governamentais e 
-                financeiras críticas. A criptografia pós-quântica também está sendo desenvolvida para proteger 
-                dados contra futuros ataques de computadores quânticos, garantindo a segurança de informações 
-                sensíveis armazenadas hoje.
-              </p>
-            </div>
-          </div>
+          <div class="card" data-card="superposicao"> 
+    <div class="card-icon-wrapper" data-tooltip="Clique para expandir ou recolher">
+      <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+        <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+      </svg>
+    </div>
+    <h3 class="card-title">Superposição Quântica</h3> 
+    <p class="card-description">
+      O princípio que permite aos qubits processar e armazenar múltiplas possibilidades ao mesmo tempo.
+    </p>
+    <div class="card-expanded-content">
+      <p class="expanded-text">
+        A Superposição é o princípio fundamental que diferencia os qubits dos bits clássicos.
+        <ul class="expanded-text"><li>Enquanto um bit clássico trabalha com  0 e 1, um qubit pode existir em um estado de superposição, 
+         que é uma combinação linear dos estados de base (|0> e |1>).Matematicamente, o estado é representado 
+         por α|0> + β|1>.</li></ul> 
+      </p>
+      <p class="expanded-text">
+       <ul class="expanded-text"> <li> As variáveis α e β são chamadas de <b>amplitudes de probabilidade </b>
+        e  são números complexos que carregam informações sobre a força 
+        relativa de cada estado. </li> <li>Embora o qubit esteja sempre em um único estado, essa combinação de 
+        estados permite que os computadores quânticos explorem e processem <b>múltiplos caminhos de 
+        cálculo simultaneamente</b>, conferindo-lhes um potencial de paralelismo massivo.</li>
+        </ul>
+      </p>
+    </div>
+    </div>
+  </div>
 
-          <div class="card" data-card="ia">
+          <div class="card" data-card="emaranhamento">
             <div class="card-icon-wrapper" data-tooltip="Clique para expandir ou recolher">
               <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M12 2v20M2 12h20"></path>
                 <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
               </svg>
             </div>
-            <h3 class="card-title">IA Quântica</h3>
+            <h3 class="card-title">Emaranhamento Quântico</h3>
             <p class="card-description">
-              Machine learning exponencialmente mais rápido e preciso
+              Conexão intrínseca entre dois ou mais qubits, permitindo a determinação de estados à distância.
             </p>
             <div class="card-expanded-content">
               <p class="expanded-text">
-                Algoritmos de machine learning quântico (QML) exploram a superposição e o emaranhamento para 
-                processar múltiplas possibilidades simultaneamente. Isso permite o treinamento de modelos de 
-                IA com conjuntos de dados massivos em uma fração do tempo necessário para computadores clássicos.
+              Emaranhamento é a capacidade dos qubits de correlacionar seu estado com o de outros qubits.
               </p>
               <p class="expanded-text">
-                Aplicações incluem reconhecimento de padrões em imagens médicas com precisão sobre-humana, 
-                previsão de estruturas de proteínas para desenvolvimento de medicamentos, otimização de 
-                portfólios financeiros e sistemas de recomendação altamente personalizados. A IA quântica 
-                também promete avanços em processamento de linguagem natural e visão computacional.
+                Os sistemas emaranhados estão tão intrinsecamente ligados que, quando os processadores quânticos medem um único qubit emaranhado, conseguem determinar imediatamente as informações sobre outros qubits no sistema emaranhado.
+              </p>
+              <p class="expanded-text">
+               Essa correlação instantânea e ultra-segura é fundamental para a comunicação quântica e para a realização de cálculos complexos em paralelo.
               </p>
             </div>
           </div>
 
-          <div class="card" data-card="otimizacao">
-            <div class="card-icon-wrapper" data-tooltip="Clique para expandir ou recolher">
-              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
-                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                <line x1="12" y1="22.08" x2="12" y2="12"></line>
-              </svg>
-            </div>
-            <h3 class="card-title">Otimização de Dados</h3>
-            <p class="card-description">
-              Solução de problemas complexos de otimização em tempo real
-            </p>
-            <div class="card-expanded-content">
-              <p class="expanded-text">
-                Computadores quânticos são especialmente eficazes em resolver problemas de otimização 
-                combinatória que são intratáveis para computadores clássicos. Isso inclui otimização de 
-                rotas logísticas, alocação de recursos em redes complexas e planejamento de produção industrial.
-              </p>
-              <p class="expanded-text">
-                Na área médica, a otimização quântica pode melhorar o agendamento de cirurgias, a distribuição 
-                de medicamentos e a alocação de leitos hospitalares. Em pesquisa científica, acelera a análise 
-                de grandes conjuntos de dados genômicos e a identificação de correlações em estudos 
-                epidemiológicos complexos.
-              </p>
-            </div>
-          </div>
-        </div>
+          <div class="card" data-card="interferencia">
+  <div class="card-icon-wrapper" data-tooltip="Clique para expandir ou recolher">
+    <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+      <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+      <line x1="12" y1="22.08" x2="12" y2="12"></line>
+    </svg>
+  </div>
+  <h3 class="card-title">Interferência Quântica</h3>
+
+  <p class="card-description">
+    Mecanismo utilizado para amplificar as soluções corretas e anular as incorretas durante o cálculo.
+  </p>
+
+  <div class="card-expanded-content">
+    <p class="expanded-text">
+      A interferência é o principal mecanismo da computação quântica. Um ambiente de qubits em superposição coletiva estrutura as informações de uma maneira que se assemelha a ondas, cada qual com amplitudes associadas a um possível resultado.
+    </p>
+    <p class="expanded-text">
+      Essas amplitudes se tornam as probabilidades dos resultados após uma medição do sistema. As ondas podem se acumular (interferência construtiva) quando seus picos se encontram, aumentando a probabilidade de um resultado.
+    </p>
+    <p class="expanded-text">
+      Alternativamente, as ondas podem se anular (interferência destrutiva) quando os picos e vales interagem. Amplificar uma probabilidade ou cancelar outras são as formas como a interferência é utilizada para resolver problemas.
+    </p>
+  </div>
+</div>
 
         <div class="section-nav">
           <a href="#introducao" class="nav-btn nav-btn-secondary">
