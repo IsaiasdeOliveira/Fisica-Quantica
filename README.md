@@ -4,12 +4,7 @@
 
 **Este repositório serve como código-fonte para o site. Para visualizar o trabalho completo e interativo, clique no link abaixo:**
 
-<p align="center">
-  <a href="https://[isaiasdeoliveira].github.io/Fisica-Quantica/" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #8B5CF6; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 1.2rem;">
-    Link Site  Tecnologias Aplicadas da Física Quântica
-  </a>
-</p>
-
+[🌐 VISITAR O SITE COMPLETO (APLICAÇÃO) 🚀](https://isaiasdeoliveira.github.io/Fisica-Quantica/).
 ---
 
 ## 🎯 Sumário Acadêmico do Projeto
