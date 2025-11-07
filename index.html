@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tecnologias Aplicadas da Física Quântica</title>
+  <link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+  <nav id="sidebar" class="sidebar">
+    <button id="closeSidebar" class="close-btn" aria-label="Fechar menu">×</button>
+    <div class="sidebar-content">
+      <h3>Sumário</h3>
+      <ul class="nav-list">
+        <li>
+          <a href="#inicio" class="nav-item">
+            <span class="nav-icon">🏠</span>
+            <span>Início</span>
+          </a>
+        </li>
+        <li>
+          <a href="#introducao" class="nav-item">
+            <span class="nav-icon">📄</span>
+            <span>Introdução</span>
+          </a>
+        </li>
+        <li>
+          <a href="#fundamentos" class="nav-item">
+            <span class="nav-icon">⚛️</span>
+            <span>Fundamentos da Fisica Quântica</span>
+          </a>
+        </li>
+        <li>
+          <a href="aplicacoes" class="nav-item">
+            <span class="nav-icon">⚙️</span>
+            <span>Aplicações da Fisica Quântica</span>
+          </a>
+        </li>
+        <li>
+          <a href="Avancos" class="nav-item">
+            <span class="nav-icon">🚀</span>
+            <span>Avanços Futuros na Quântica</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <button id="menuToggle" class="menu-toggle" aria-label="Abrir menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <div id="overlay" class="overlay"></div>
+
+  <main class="main-content">
+ 
+    <section id="inicio" class="hero">
+      <div class="hero-background">
+        <img src="quantum-physics-visualization-with-atoms--neural-n.jpg" alt="Física Quântica" class="hero-image">
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content">
+        <div class="particles">
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+        </div>
+        <h1 class="hero-title">Tecnologias Aplicadas da Física Quântica</h1>
+        <p class="hero-subtitle">Feito por: Isaias Maia de Oliveira</p>
+        <a href="#introducao" class="hero-button">Introdução</a>
+      </div>
+    </section>
+    <section id="introducao" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Introdução</h2>
+          <p class="section-description">
+            A física quântica está revolucionando a medicina moderna através de tecnologias inovadoras
+            que permitem diagnósticos mais precisos e tratamentos personalizados.
+          </p>
+        </div>
+
+        <div class="section-nav">
+          <a href="#inicio" class="nav-btn nav-btn-secondary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M19 12H5M12 19l-7-7 7-7"/>
+            </svg>
+            Voltar ao Topo
+          </a>
+          <a href="#fundamentos" class="nav-btn nav-btn-primary">
+            Próximo: Fundamentos da Física Quântica
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="fundamentos" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Fundamentos da Fisica Quântica</h2>
+          <p class="section-description">
+            Conceitos essenciais da física quântica que sustentam suas aplicações tecnológicas
+            na medicina e na tecnologia.
+          </p>
+        </div>
+
+        <div class="cards-grid cards-grid-3">
+          <div class="card" data-card="Qubits">
+            <div class="card-icon-wrapper" data-tooltip="Clique para expandir ou recolher">
+              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+            </div>
+            <h3 class="card-title">Qubits</h3>
+            <p class="card-description">
+              
+            </p>
+            <div class="card-expanded-content">
+              <p class="expanded-text">
+                A distribuição quântica de chaves (QKD) utiliza o princípio da incerteza de Heisenberg para 
+                criar sistemas de criptografia teoricamente invioláveis. Qualquer tentativa de interceptação 
+                altera o estado quântico das partículas, alertando imediatamente os usuários legítimos.
+              </p>
+              <p class="expanded-text">
+                Redes quânticas já estão sendo implementadas para proteger comunicações governamentais e 
+                financeiras críticas. A criptografia pós-quântica também está sendo desenvolvida para proteger 
+                dados contra futuros ataques de computadores quânticos, garantindo a segurança de informações 
+                sensíveis armazenadas hoje.
+              </p>
+            </div>
+          </div>
+
+          <div class="card" data-card="ia">
+            <div class="card-icon-wrapper" data-tooltip="Clique para expandir ou recolher">
+              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2v20M2 12h20"></path>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+            </div>
+            <h3 class="card-title">IA Quântica</h3>
+            <p class="card-description">
+              Machine learning exponencialmente mais rápido e preciso
+            </p>
+            <div class="card-expanded-content">
+              <p class="expanded-text">
+                Algoritmos de machine learning quântico (QML) exploram a superposição e o emaranhamento para 
+                processar múltiplas possibilidades simultaneamente. Isso permite o treinamento de modelos de 
+                IA com conjuntos de dados massivos em uma fração do tempo necessário para computadores clássicos.
+              </p>
+              <p class="expanded-text">
+                Aplicações incluem reconhecimento de padrões em imagens médicas com precisão sobre-humana, 
+                previsão de estruturas de proteínas para desenvolvimento de medicamentos, otimização de 
+                portfólios financeiros e sistemas de recomendação altamente personalizados. A IA quântica 
+                também promete avanços em processamento de linguagem natural e visão computacional.
+              </p>
+            </div>
+          </div>
+
+          <div class="card" data-card="otimizacao">
+            <div class="card-icon-wrapper" data-tooltip="Clique para expandir ou recolher">
+              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+              </svg>
+            </div>
+            <h3 class="card-title">Otimização de Dados</h3>
+            <p class="card-description">
+              Solução de problemas complexos de otimização em tempo real
+            </p>
+            <div class="card-expanded-content">
+              <p class="expanded-text">
+                Computadores quânticos são especialmente eficazes em resolver problemas de otimização 
+                combinatória que são intratáveis para computadores clássicos. Isso inclui otimização de 
+                rotas logísticas, alocação de recursos em redes complexas e planejamento de produção industrial.
+              </p>
+              <p class="expanded-text">
+                Na área médica, a otimização quântica pode melhorar o agendamento de cirurgias, a distribuição 
+                de medicamentos e a alocação de leitos hospitalares. Em pesquisa científica, acelera a análise 
+                de grandes conjuntos de dados genômicos e a identificação de correlações em estudos 
+                epidemiológicos complexos.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-nav">
+          <a href="#introducao" class="nav-btn nav-btn-secondary">
+            Anterior: Introdução
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M19 12H5M12 19l-7-7 7-7"/>
+            </svg>
+          </a>
+          <a href="#aplicacoes" class="nav-btn nav-btn-primary">
+            Próximo: Aplicações da Física Quântica
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="aplicacoes" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">aplicações</h2>
+          <p class="section-description">
+            O futuro da física quântica aplicada promete transformações revolucionárias
+            na medicina, tecnologia e sociedade como um todo.
+          </p>
+        </div>
+
+        <div class="cards-grid cards-grid-3">
+          <div class="card" data-card="financeira">
+            <div class="card-icon-wrapper" data-tooltip="Clique para expandir ou recolher">
+              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="card-title">Finanças em Quântica</h3>
+            <p class="card-description">
+              Tratamentos customizados baseados em perfis quânticos individuais
+            </p>
+            <div class="card-expanded-content">
+              <p class="expanded-text">
+                A medicina personalizada quântica utilizará análises em nível molecular para criar perfis 
+                únicos de cada paciente, considerando não apenas genética, mas também estados quânticos de 
+                biomoléculas. Isso permitirá prever com precisão como cada indivíduo responderá a diferentes 
+                tratamentos.
+              </p>
+              <p class="expanded-text">
+                Terapias serão desenvolvidas sob medida, ajustando dosagens e combinações de medicamentos em 
+                tempo real baseado em monitoramento quântico contínuo. Isso maximizará a eficácia do tratamento 
+                enquanto minimiza efeitos colaterais, revolucionando o cuidado de doenças crônicas e complexas.
+              </p>
+            </div>
+          </div>
+
+          <div class="card" data-card="medicina">
+            <div class="card-icon-wrapper" data-tooltip="Clique para expandir ou recolher">
+              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="card-title">Medicina em Quântica</h3>
+            <p class="card-description">
+              Processadores quânticos integrados em dispositivos cotidianos
+            </p>
+            <div class="card-expanded-content">
+              <p class="expanded-text">
+                À medida que a tecnologia quântica se miniaturiza, veremos processadores quânticos integrados 
+                em smartphones, wearables e dispositivos médicos portáteis. Isso democratizará o acesso a 
+                capacidades computacionais antes restritas a supercomputadores.
+              </p>
+              <p class="expanded-text">
+                Dispositivos pessoais poderão realizar análises médicas complexas instantaneamente, desde 
+                diagnósticos de doenças até simulações de interações medicamentosas. A internet quântica 
+                conectará esses dispositivos em uma rede global ultra-segura, permitindo colaboração científica 
+                e médica em tempo real sem precedentes.
+              </p>
+            </div>
+          </div>
+
+          <div class="card" data-card="seguranca">
+            <div class="card-icon-wrapper" data-tooltip="Clique para expandir ou recolher">
+              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="card-title">Cibersegurança com Quântica</h3>
+            <p class="card-description">
+              Democratização do acesso a tecnologias médicas avançadas
+            </p>
+            <div class="card-expanded-content">
+              <p class="expanded-text">
+                As tecnologias quânticas têm o potencial de reduzir drasticamente os custos de diagnóstico e 
+                tratamento, tornando cuidados de saúde de alta qualidade acessíveis a populações globalmente. 
+                Dispositivos de diagnóstico quântico portáteis poderão ser implantados em áreas remotas e 
+                carentes de recursos.
+              </p>
+              <p class="expanded-text">
+                A telemedicina quântica permitirá consultas especializadas com análises em tempo real, 
+                independentemente da localização geográfica. Isso reduzirá disparidades no acesso à saúde e 
+                acelerará a disseminação de conhecimento médico, contribuindo para uma sociedade mais equitativa 
+                e saudável.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-nav">
+          <a href="#fundamentos" class="nav-btn nav-btn-primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+            </svg>
+            Anterior: Fundamentos da Física Quântica
+          </a>
+          <a href="#avancos" class="nav-btn nav-btn-secondary">
+            Proximo: Avancos Futuros na Quântica
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M19 12H5M12 19l-7-7 7-7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="avancos" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Avanços da Fisica Quântica</h2>
+          <p class="section-description">
+            O futuro da física quântica aplicada promete transformações revolucionárias
+            na medicina, tecnologia e sociedade como um todo.
+          </p>
+        </div>
+
+        <div class="cards-grid cards-grid-3">
+          <div class="card" data-card="financeira">
+            <div class="card-icon-wrapper" data-tooltip="Clique para expandir ou recolher">
+              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <p class="card-description">
+              Tratamentos customizados baseados em perfis quânticos individuais
+            </p>
+            <div class="card-expanded-content">
+              <p class="expanded-text">
+                A medicina personalizada quântica utilizará análises em nível molecular para criar perfis 
+                únicos de cada paciente, considerando não apenas genética, mas também estados quânticos de 
+                biomoléculas. Isso permitirá prever com precisão como cada indivíduo responderá a diferentes 
+                tratamentos.
+              </p>
+              <p class="expanded-text">
+                Terapias serão desenvolvidas sob medida, ajustando dosagens e combinações de medicamentos em 
+                tempo real baseado em monitoramento quântico contínuo. Isso maximizará a eficácia do tratamento 
+                enquanto minimiza efeitos colaterais, revolucionando o cuidado de doenças crônicas e complexas.
+              </p>
+            </div>
+          </div>
+
+        <div class="section-nav">
+          <a href="#inicio" class="nav-btn nav-btn-primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+            </svg>
+            Voltar ao Topo
+          </a>
+          <a href="#aplicacoes" class="nav-btn nav-btn-secondary">
+            Anterior: Aplicações da Física Quântica
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M19 12H5M12 19l-7-7 7-7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+    
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3 class="footer-title">Referencias Utilizadas: </h3>
+            <ul class="footer-list">
+              <li>https://pennylane.ai/codebook/introduction-to-quantum-computing/all-about-qubits/en</li>
+              <li>https://www.ibm.com/br-pt/think/topics/quantum-computing</li>
+            </ul>
+          </div>
+          
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
