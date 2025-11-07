@@ -13,10 +13,10 @@ Este projeto, desenvolvido como trabalho acadêmico, explora o potencial transfo
 
 | Capítulo | Tópico | Foco Principal |
 | :--- | :--- | :--- |
-| **I** | **Introdução** | Contraste entre Computação Clássica e Quântica, e Justificativa. |
-| **II** | **Fundamentos Essenciais** | O Qubit, Superposição e Emaranhamento. |
-| **III** | **Aplicações Práticas** | Otimização/Finanças, Cibersegurança e Medicina Quântica. |
-| **IV** | **Considerações Finais** | Medicina Personalizada, Computação Ubíqua e Impacto Social. |
+| **I** | **Introdução** | Contraste entre Computação Clássica e Quântica. |
+| **II** | **Fundamentos Essenciais** | Superposição, Emaranhamento e Interferência. |
+| **III** | **Aplicações Práticas** | Finanças, Cibersegurança e Medicina Quântica. |
+| **IV** | **Avanços Futuros** | Avanços que podem acontecer no futuro da Quântica. |
 
 ### 🛠️ Tecnologias Utilizadas
 
