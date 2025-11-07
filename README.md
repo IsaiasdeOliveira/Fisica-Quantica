@@ -31,7 +31,6 @@ Este projeto, desenvolvido como trabalho acadêmico, explora o potencial transfo
 | Nome | Função |
 | :--- | :--- |
 | Isaias Maia de Oliveira | Pesquisador Principal e Desenvolvedor |
-| [Adicione Outros Membros Aqui] | [Função] |
 
 ---
 
