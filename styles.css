@@ -303,9 +303,9 @@ html {
   line-height: 1.2;
 }
 
-.hero-subtitle {
+.sumario-subtitle {
   font-size: clamp(1rem, 2vw, 1.5rem);
-  color: var(--color-text-muted);
+  color: var(--color-text);
   margin-bottom: var(--spacing-xl);
   font-weight: 300;
 }
@@ -442,14 +442,15 @@ html {
   transform: translateY(-50%) translateX(8px);
   background: var(--color-surface-light);
   color: var(--color-text);
-  padding: var(--spacing-xs) var(--spacing-sm);
+  padding: 0.50rem 0.8rem;
   border-radius: var(--radius-sm);
-  font-size: 0.875rem;
+  font-size: 1.0rem;
   white-space: nowrap;
-  opacity: 0;
+  opacity: 1;
+  display: block;
   pointer-events: none;
   transition: opacity 0.3s ease, transform 0.3s ease;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
   border: 1px solid var(--color-border);
   z-index: 10;
 }
@@ -611,6 +612,9 @@ html {
 .footer-list li {
   color: var(--color-text-muted);
   margin-bottom: var(--spacing-xs);
+  overflow-wrap: break-word;
+  word-wrap: break-word; 
+  text-align: left;
 }
 
 .footer-text {
@@ -651,9 +655,15 @@ html {
   .card.expanded {
     grid-column: span 1;
   }
+  .sidebar-content h3 {
+    /* Isso empurra o "Sumário" para baixo,
+       saindo de trás dos ícones de fechar e abrir. */
+    margin-top: 4rem; 
+  }
 }
 
 @media (max-width: 768px) {
+  
   .section {
     padding: var(--spacing-xl) var(--spacing-md);
   }
@@ -674,6 +684,16 @@ html {
   .footer-content {
     grid-template-columns: 1fr;
     gap: var(--spacing-lg);
+  }
+  .hero-image {
+    /* Tente 'left', 'right', ou uma porcentagem para ver qual 
+       parte da imagem você prefere focar */
+    object-position: left; 
+  }
+
+  .card-icon-wrapper::before {
+    /* Este será o tamanho SÓ para o celular */
+    font-size: 0.600rem; 
   }
 }
 

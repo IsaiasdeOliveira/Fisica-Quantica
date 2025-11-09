@@ -46,6 +46,9 @@
             <span>Avanços Futuros na Quântica</span>
           </a>
         </li>
+        <li>
+          <p class="sumario-subtitle">Feito por: Isaias Maia de Oliveira</p>
+        </li>
       </ul>
     </div>
   </nav>
@@ -74,7 +77,6 @@
           <div class="particle"></div>
         </div>
         <h1 class="hero-title">Tecnologias Aplicadas da Física Quântica</h1>
-        <p class="hero-subtitle">Feito por: Isaias Maia de Oliveira</p>
         <a href="#introducao" class="hero-button">Introdução</a>
       </div>
     </section>
@@ -83,7 +85,7 @@
         <div class="section-header">
           <h2 class="section-title">Introdução</h2>
           <h3 class="section-subtitle">Computação Clássica vs Computação Quântica</h3>
-          <p class="section-description">
+          <p class="expanded-text">
            Os computadores clássicos (ou tradicionais) operam de forma sequencial, armazenando e
            processando informações por meio de bits binários. Cada bit clássico possui um estado 
            bem definido, representando apenas um valor por vez: 0 ou 1. Os computadores quânticos, 
@@ -244,19 +246,30 @@
             </div>
             <h3 class="card-title">Finanças em Quântica</h3>
             <p class="card-description">
-              Tratamentos customizados baseados em perfis quânticos individuais
+              Aplicação de algoritmos quânticos para otimizar a precificação de derivativos e gestão de riscos financeiros.
             </p>
             <div class="card-expanded-content">
               <p class="expanded-text">
-                A medicina personalizada quântica utilizará análises em nível molecular para criar perfis 
-                únicos de cada paciente, considerando não apenas genética, mas também estados quânticos de 
-                biomoléculas. Isso permitirá prever com precisão como cada indivíduo responderá a diferentes 
-                tratamentos.
-              </p>
-              <p class="expanded-text">
-                Terapias serão desenvolvidas sob medida, ajustando dosagens e combinações de medicamentos em 
-                tempo real baseado em monitoramento quântico contínuo. Isso maximizará a eficácia do tratamento 
-                enquanto minimiza efeitos colaterais, revolucionando o cuidado de doenças crônicas e complexas.
+                 Para esta área, a análise da aplicação em finanças que escolhi veio do seguinte artigo cientifico:
+              
+                <ul class="expanded-text"><li>Artigo de Referência: "A Survey on Quantum Computational Finance for Derivatives Pricing and VaR".</li>
+                  
+                <li>Objetivo: Acelerar a precificação de derivativos e o cálculo de risco (VaR).</li>
+
+                <li>Tecnologia Quântica Aplicada: A principal abordagem é o Monte Carlo Quântico Acelerado (QAMC). Este método não 
+                é apenas uma "ideia", ele utiliza algoritmos quânticos específicos, como a Amplificação de Amplitude 
+                (base do Grover) e a Estimação de Amplitude Quântica (QAE), para obter a "aceleração quadrática".</li>
+
+                <li>Desafio Central: O artigo aponta que a aceleração teórica é "injusta" . O verdadeiro "gargalo" não está no cálculo,
+                mas sim em carregar os dados (a distribuição de probabilidade e a função de payoff) para dentro do estado quântico .</li>
+
+                <li>Soluções Propostas: Para resolver o "gargalo" do carregamento, o artigo explora futuras soluções como Circuitos 
+                Quânticos Variacionais (QGANs) ou Redes Tensoriais (Tensor Networks) para aproximar os dados de forma eficiente .</li>
+
+                <li>Conclusão: O progresso é encorajador (especialmente com QAEs que evitam a complexa QFT). No entanto, o artigo
+                conclui que uma vantagem quântica no mundo real só será alcançada após uma descoberta fundamental em como carregar
+                eficientemente as distribuições de probabilidade e as funções de payoff.</li>
+                </ul>
               </p>
             </div>
           </div>
@@ -269,21 +282,36 @@
                 <line x1="12" y1="17" x2="12" y2="21"></line>
               </svg>
             </div>
-            <h3 class="card-title">Medicina em Quântica</h3>
+            <h3 class="card-title">Medicina na Quântica</h3>
             <p class="card-description">
-              Processadores quânticos integrados em dispositivos cotidianos
+              Processadores quânticos no uso de nanoestruturas quânticas para tratamento de doenças.
             </p>
             <div class="card-expanded-content">
               <p class="expanded-text">
-                À medida que a tecnologia quântica se miniaturiza, veremos processadores quânticos integrados 
-                em smartphones, wearables e dispositivos médicos portáteis. Isso democratizará o acesso a 
-                capacidades computacionais antes restritas a supercomputadores.
-              </p>
-              <p class="expanded-text">
-                Dispositivos pessoais poderão realizar análises médicas complexas instantaneamente, desde 
-                diagnósticos de doenças até simulações de interações medicamentosas. A internet quântica 
-                conectará esses dispositivos em uma rede global ultra-segura, permitindo colaboração científica 
-                e médica em tempo real sem precedentes.
+               Para a área médica, a análise foca-se no uso de nanoestruturas quânticas, com base neste artigo:
+
+               <ul class="expanded-text"><li>Artigo de Referência: "Advancing Cancer Therapy with Quantum Dots and Other Nanostructures: 
+               A Review of Drug Delivery Innovations, Applications, and Challenges".</li>
+               
+               <li>Objetivo: Usar Pontos Quânticos (QDs) como uma plataforma "teranóstica", ou seja, que serve para Terapia 
+               (entrega de fármacos) e Diagnóstico (imagiologia) ao mesmo tempo .</li>
+
+               <li>Tecnologia Quântica Aplicada: A propriedade-chave é o "confinamento quântico". Isto faz com que o tamanho do 
+               QD dite a cor da sua fluorescência (ex: 2nm = azul, 6nm = vermelho). Isto permite um rastreamento ao vivo 
+               (bioimaging) do fármaco no corpo, algo que corantes normais não fazem bem.</li>
+
+               <li>Desafio Central: Toxicidade. Muitos QDs (chamados SQDs) são feitos de metais pesados como Cádmio (Cd) ou Chumbo 
+               (Pb), que podem vazar e são altamente tóxicos para as células . O segundo desafio é a lacuna de tradução clínica: 
+               há muitos estudos em laboratório, mas quase nenhuns ensaios clínicos em humanos .</li>
+
+               <li>Soluções Propostas : A solução direta para a toxicidade é a investigação de QDs biocompatíveis, especificamente 
+               Pontos Quânticos de Carbono (CDs) e Grafeno (GQDs), que são minimamente tóxicos. Para a lacuna clínica, a solução
+                é "mais investigação translacional".</li>
+
+               <li>Conclusão : Os QDs são uma "fronteira promissora". O artigo conclui que o potencial clínico só será desbloqueado 
+               se os desafios de segurança (toxicidade) a longo prazo forem resolvidos e se a enorme lacuna entre os testes 
+               pré-clínicos e as aplicações em humanos for superada .</li>
+               </ul>
               </p>
             </div>
           </div>
@@ -297,22 +325,40 @@
                 <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
               </svg>
             </div>
-            <h3 class="card-title">Cibersegurança com Quântica</h3>
+            <h3 class="card-title">Cibersegurança na Quântica</h3>
             <p class="card-description">
-              Democratização do acesso a tecnologias médicas avançadas
+              Uso de criptografia quântica para proteger dados contra ameaças de computadores quânticos futuros.
             </p>
             <div class="card-expanded-content">
               <p class="expanded-text">
-                As tecnologias quânticas têm o potencial de reduzir drasticamente os custos de diagnóstico e 
-                tratamento, tornando cuidados de saúde de alta qualidade acessíveis a populações globalmente. 
-                Dispositivos de diagnóstico quântico portáteis poderão ser implantados em áreas remotas e 
-                carentes de recursos.
-              </p>
-              <p class="expanded-text">
-                A telemedicina quântica permitirá consultas especializadas com análises em tempo real, 
-                independentemente da localização geográfica. Isso reduzirá disparidades no acesso à saúde e 
-                acelerará a disseminação de conhecimento médico, contribuindo para uma sociedade mais equitativa 
-                e saudável.
+                Esta análise é baseada no artigo sobre o futuro da segurança na era quântica:
+
+                <ul class="expanded-text"><li>Artigo de Referência: "Cybersecurity With Quantum Cryptography: An Analysis Of Current Techniques 
+                And Future Trends".</li>
+
+                <li>Objetivo: Proteger os dados contra a ameaça de computadores quânticos futuros, 
+                que tornarão a criptografia clássica (baseada em matemática, como RSA) obsoleta .</li>
+
+                Tecnologia Quântica Aplicada: A solução usa as leis da física. As duas tecnologias-chave são:
+
+                <li>Distribuição Quântica de Chaves (QKD): Utiliza protocolos como BB84 e E91 para enviar fotões. 
+                Se um espião tentar "ler" a chave, ele perturba o estado quântico e é detetado imediatamente .</li>
+
+                <li>Criptografia Pós-Quântica (PQC): São algoritmos clássicos novos, projetados para serem seguros mesmo 
+                contra um ataque quântico.</li>
+
+                <li>Desafio Central: Custo elevado da infraestrutura especializada ; limitações de distância do QKD 
+                (os fotões perdem-se em fibras longas) ; e a dificuldade de integrar esta nova tecnologia nos sistemas 
+                legados já existentes.</li>
+
+                <li>Soluções Propostas: Para o problema da distância, a solução apontada é o QKD baseado em satélite
+                (como o Micius da China) . Para a integração, a solução é uma abordagem híbrida (onde o quântico 
+                complementa o clássico) e a padronização global (liderada pelo NIST).</li>
+
+                <li>Conclusão: O impacto desta tecnologia é "inegável". A criptografia quântica oferece "segurança 
+                teoricamente inquebrável". O artigo conclui que o futuro depende da colaboração, padronização e de
+                resolver a escalabilidade.</li>
+              </ul>
               </p>
             </div>
           </div>
@@ -339,39 +385,27 @@
       <div class="container">
         <div class="section-header">
           <h2 class="section-title">Avanços da Fisica Quântica</h2>
-          <p class="section-description">
-            O futuro da física quântica aplicada promete transformações revolucionárias
-            na medicina, tecnologia e sociedade como um todo.
+          <p class="expanded-text">
+          O futuro da computação quântica foca-se em mover a tecnologia da teoria para a prática, resolvendo problemas
+          do mundo real. Os próximos avanços não se limitarão a computadores mais rápidos, mas sim a diferentes formas 
+          de computar, com o objetivo de impactar fundamentalmente a indústria, a ciência e a segurança global.
+
+          As principais frentes de avanço incluem:
+
+          <ul class="expanded-text"><li>Hardware (Tolerância a Falhas): O maior objetivo é passar dos computadores "barulhentos" (NISQ) de hoje para 
+          máquinas robustas com qubits corrigidos contra erros, permitindo cálculos longos e complexos.</li>
+
+          <li>Vantagem Quântica Real: A demonstração prática de uma vantagem quântica em problemas comerciais (ex: otimização 
+          financeira, logística) e científicos, indo além das provas de conceito.</li>
+
+          <li>Simulação e IA: Aceleração da descoberta de novos medicamentos e materiais (ex: baterias, catalisadores) através 
+          da simulação molecular e o desenvolvimento do Quantum Machine Learning (QML).</li>
+
+          <li>A "Internet Quântica": O desenvolvimento de redes quânticas globais que permitirão uma comunicação intrinsecamente 
+          segura, protegida pelas leis da física.</li>
+          </ul>
           </p>
         </div>
-
-        <div class="cards-grid cards-grid-3">
-          <div class="card" data-card="financeira">
-            <div class="card-icon-wrapper" data-tooltip="Clique para expandir ou recolher">
-              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
-                <circle cx="9" cy="7" r="4"></circle>
-                <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"></path>
-              </svg>
-            </div>
-            <h3 class="card-title">Avanços Futuros</h3>
-            <p class="card-description">
-              Tratamentos customizados baseados em perfis quânticos individuais
-            </p>
-            <div class="card-expanded-content">
-              <p class="expanded-text">
-                A medicina personalizada quântica utilizará análises em nível molecular para criar perfis 
-                únicos de cada paciente, considerando não apenas genética, mas também estados quânticos de 
-                biomoléculas. Isso permitirá prever com precisão como cada indivíduo responderá a diferentes 
-                tratamentos.
-              </p>
-              <p class="expanded-text">
-                Terapias serão desenvolvidas sob medida, ajustando dosagens e combinações de medicamentos em 
-                tempo real baseado em monitoramento quântico contínuo. Isso maximizará a eficácia do tratamento 
-                enquanto minimiza efeitos colaterais, revolucionando o cuidado de doenças crônicas e complexas.
-              </p>
-            </div>
-          </div>
 
         <div class="section-nav">
           <a href="#inicio" class="nav-btn nav-btn-primary">
@@ -398,6 +432,9 @@
             <ul class="footer-list">
               <li>https://pennylane.ai/codebook/introduction-to-quantum-computing/all-about-qubits/en</li>
               <li>https://www.ibm.com/br-pt/think/topics/quantum-computing</li>
+              <li>https://www.researchgate.net/publication/359026337_A_Survey_on_Quantum_Computational_FinanceA_Survey_on_Quantum_Computational_Finance_for_Derivatives_Pricing_and_VaR</li>
+              <li>https://pmc.ncbi.nlm.nih.gov/articles/PMC11898779/</li>
+              <li>https://www.ijstm.inarah.co.id/index.php/ijstm/article/view/1269</li>
             </ul>
           </div>
           
