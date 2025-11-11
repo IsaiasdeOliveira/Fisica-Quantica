@@ -515,6 +515,24 @@ html {
   display: block;
 }
 
+.toggle-expand-btn {
+  background: var(--color-surface);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: var(--transition);
+  font-weight: 500;
+  margin-top: var(--spacing-md);
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+}
+
+.toggle-expand-btn:hover {
+  background: var(--color-surface-light);
+  border-color: var(--color-primary);
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -704,5 +722,37 @@ html {
 
   .sidebar {
     width: 100%;
+  }
+}
+
+.section.view-expanded .card {
+  /* Força a aparência de expandido */
+  background: var(--color-surface-light);
+  
+  /* Faz o cursor parar de parecer clicável */
+  cursor: default; 
+}
+
+.section.view-expanded .card:hover {
+  /* Remove o efeito de levantar ao passar o mouse */
+  transform: none;
+  border-color: var(--color-secondary);
+}
+
+.section.view-expanded .card-expanded-content {
+  /* Força o conteúdo expandido a aparecer */
+  display: block;
+}
+
+.section.view-expanded .card-icon-wrapper {
+  /* Esconde o ícone de expandir/recolher, 
+     pois não é mais necessário neste modo */
+  display: none; 
+}
+
+/* Também esconde o tooltip fixo do celular */
+@media (max-width: 768px) {
+  .section.view-expanded .card-icon-wrapper::before {
+    display: none;
   }
 }

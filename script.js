@@ -5,6 +5,10 @@ const closeSidebar = document.getElementById("closeSidebar")
 const overlay = document.getElementById("overlay")
 const navItems = document.querySelectorAll(".nav-item")
 const cards = document.querySelectorAll(".card")
+const toggleFundamentosBtn = document.getElementById("toggleFundamentos");
+const toggleAplicacoesBtn = document.getElementById("toggleAplicacoes");
+const fundamentosSection = document.getElementById("fundamentos");
+const aplicacoesSection = document.getElementById("aplicacoes");
 
 // Toggle do menu mobile
 menuToggle.addEventListener("click", () => {
@@ -132,3 +136,27 @@ cards.forEach((card, index) => {
   card.style.transition = `opacity 0.5s ease ${index * 0.1}s, transform 0.5s ease ${index * 0.1}s`
   observer.observe(card)
 })
+
+function setupToggleView(button, section) {
+  // Verifica se o botão e a seção existem na página
+  if (button && section) {
+    
+    button.addEventListener("click", () => {
+      // Adiciona ou remove a classe "view-expanded" da seção
+      section.classList.toggle("view-expanded");
+      
+      const isExpandedView = section.classList.contains("view-expanded");
+      
+      // Muda o texto do botão
+      if (isExpandedView) {
+        button.innerText = "Modo Interativo";
+      } else {
+        button.innerText = "Expandir Todos";
+      }
+    });
+  }
+}
+
+// Inicializa a função para as duas seções
+setupToggleView(toggleFundamentosBtn, fundamentosSection);
+setupToggleView(toggleAplicacoesBtn, aplicacoesSection);
